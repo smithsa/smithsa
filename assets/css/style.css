@@ -1505,6 +1505,7 @@ h1 .category-name{
 	text-align: center;
 	cursor: pointer;
 	transition: background .3s ease-in-out;
+	margin-bottom: 8px;
 }
 #tags a:hover,
 #tags a:focus{
@@ -2394,6 +2395,11 @@ footer.white .address p{
 		}
 }
 
+@media(max-width: 800px) {
+	.footer{
+		padding: 80px 0 30px;
+	}
+}
 @media only screen and (min-width: 767px) and (max-width: 800px) {
 
 		.back-home {
@@ -2410,8 +2416,6 @@ footer.white .address p{
 }
 
 @media only screen and (min-width: 800px) {
-
-
 	.back-home {
 		position: absolute;
 		left: 20px;
@@ -2561,7 +2565,7 @@ pre{
 		font-size: 11px !important;
 	}
 	.blog-body .blog-content p{
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 22px;
 	}
 	.blog-body .meta{
@@ -2571,8 +2575,9 @@ pre{
 		font-size: 14px;
 		line-height: 23px;
 	}
-	.project-intro.blog-body ul li{
-		font-size: 12px !important;
+	.project-intro.blog-body ul li,
+	.project-intro.blog-body ul ol{
+		font-size: 13px !important;
 	}
 }
 @media(max-width:501px){
@@ -2595,6 +2600,9 @@ pre{
 	}
 }
 @media(max-width:450px){
+	#tags a{
+		font-size: 11px;
+	}
 	.blog-intro p, .portfolio-intro p{
 		font-size: 12px;
 	}
@@ -2613,7 +2621,7 @@ pre{
 		font-size: 28px;
 	}
 	.portfolio-intro h2, .blog-intro h2, .blog-intro h1{
-		font-size: 21px;
+		font-size: 24px;
 	}
 	.blog-reel h3{
 		font-size: 18px;
@@ -2632,7 +2640,7 @@ pre{
 	}
 	.project .details h2{
 		font-size: 21px !important;
-		margin: 0 0 20px 0 !important;
+		margin: 30px 0 10px 0 !important;
 	}
 	.blog-body{
 		padding-top: 40px !important;
@@ -2798,7 +2806,7 @@ p.copyright{
 }
 @media(max-width: 789px){
 	p.copyright{
-		font-size: 10px;
+		font-size: 11px;
 	}
 }
 
