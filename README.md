@@ -1,4 +1,4 @@
-# sadesmith.com (Jekyll)
+# sadesmith.com
 
 The personal website of Sade Smith (static version). 
 
